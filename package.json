@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "private": true,
+  "name": "onechanel",
+  "description": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0 <17"
+  },
+  "scripts": {
+    "start": "echo 2",
+    "build": "echo 1",
+    "gulp": "gulp"
+  }
+}
