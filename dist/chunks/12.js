@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[12],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/be.js":
+/***/ "./node_modules/flatpickr/dist/l10n/bg.js":
 /*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/be.js ***!
+  !*** ./node_modules/flatpickr/dist/l10n/bg.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16,31 +16,21 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Belarusian = {
+    var Bulgarian = {
       weekdays: {
-        shorthand: ["Нд", "Пн", "Аў", "Ср", "Чц", "Пт", "Сб"],
-        longhand: ["Нядзеля", "Панядзелак", "Аўторак", "Серада", "Чацвер", "Пятніца", "Субота"]
+        shorthand: ["Нд", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
+        longhand: ["Неделя", "Понеделник", "Вторник", "Сряда", "Четвъртък", "Петък", "Събота"]
       },
       months: {
-        shorthand: ["Сту", "Лют", "Сак", "Кра", "Тра", "Чэр", "Ліп", "Жні", "Вер", "Кас", "Ліс", "Сне"],
-        longhand: ["Студзень", "Люты", "Сакавік", "Красавік", "Травень", "Чэрвень", "Ліпень", "Жнівень", "Верасень", "Кастрычнік", "Лістапад", "Снежань"]
-      },
-      firstDayOfWeek: 1,
-      ordinal: function ordinal() {
-        return "";
-      },
-      rangeSeparator: " — ",
-      weekAbbreviation: "Тыд.",
-      scrollTitle: "Пракруціце для павелічэння",
-      toggleTitle: "Націсніце для пераключэння",
-      amPM: ["ДП", "ПП"],
-      yearAriaLabel: "Год"
+        shorthand: ["Яну", "Фев", "Март", "Апр", "Май", "Юни", "Юли", "Авг", "Сеп", "Окт", "Ное", "Дек"],
+        longhand: ["Януари", "Февруари", "Март", "Април", "Май", "Юни", "Юли", "Август", "Септември", "Октомври", "Ноември", "Декември"]
+      }
     };
-    fp.l10ns.be = Belarusian;
-    var be = fp.l10ns;
+    fp.l10ns.bg = Bulgarian;
+    var bg = fp.l10ns;
 
-    exports.Belarusian = Belarusian;
-    exports.default = be;
+    exports.Bulgarian = Bulgarian;
+    exports.default = bg;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -50,4 +40,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=12.js.map?v=3.23
+//# sourceMappingURL=12.js.map?v=3.23.0

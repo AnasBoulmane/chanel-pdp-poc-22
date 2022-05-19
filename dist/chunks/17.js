@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[17],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/cy.js":
+/***/ "./node_modules/flatpickr/dist/l10n/da.js":
 /*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/cy.js ***!
+  !*** ./node_modules/flatpickr/dist/l10n/da.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16,32 +16,27 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Welsh = {
+    var Danish = {
       weekdays: {
-        shorthand: ["Sul", "Llun", "Maw", "Mer", "Iau", "Gwe", "Sad"],
-        longhand: ["Dydd Sul", "Dydd Llun", "Dydd Mawrth", "Dydd Mercher", "Dydd Iau", "Dydd Gwener", "Dydd Sadwrn"]
+        shorthand: ["søn", "man", "tir", "ons", "tors", "fre", "lør"],
+        longhand: ["søndag", "mandag", "tirsdag", "onsdag", "torsdag", "fredag", "lørdag"]
       },
       months: {
-        shorthand: ["Ion", "Chwef", "Maw", "Ebr", "Mai", "Meh", "Gorff", "Awst", "Medi", "Hyd", "Tach", "Rhag"],
-        longhand: ["Ionawr", "Chwefror", "Mawrth", "Ebrill", "Mai", "Mehefin", "Gorffennaf", "Awst", "Medi", "Hydref", "Tachwedd", "Rhagfyr"]
+        shorthand: ["jan", "feb", "mar", "apr", "maj", "jun", "jul", "aug", "sep", "okt", "nov", "dec"],
+        longhand: ["januar", "februar", "marts", "april", "maj", "juni", "juli", "august", "september", "oktober", "november", "december"]
+      },
+      ordinal: function ordinal() {
+        return ".";
       },
       firstDayOfWeek: 1,
-      ordinal: function ordinal(nth) {
-        if (nth === 1) return "af";
-        if (nth === 2) return "ail";
-        if (nth === 3 || nth === 4) return "ydd";
-        if (nth === 5 || nth === 6) return "ed";
-        if (nth >= 7 && nth <= 10 || nth == 12 || nth == 15 || nth == 18 || nth == 20) return "fed";
-        if (nth == 11 || nth == 13 || nth == 14 || nth == 16 || nth == 17 || nth == 19) return "eg";
-        if (nth >= 21 && nth <= 39) return "ain";
-        return "";
-      }
+      rangeSeparator: " til ",
+      weekAbbreviation: "uge"
     };
-    fp.l10ns.cy = Welsh;
-    var cy = fp.l10ns;
+    fp.l10ns.da = Danish;
+    var da = fp.l10ns;
 
-    exports.Welsh = Welsh;
-    exports.default = cy;
+    exports.Danish = Danish;
+    exports.default = da;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -51,4 +46,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=17.js.map?v=3.23
+//# sourceMappingURL=17.js.map?v=3.23.0

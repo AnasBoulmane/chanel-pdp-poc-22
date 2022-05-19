@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[16],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/cs.js":
+/***/ "./node_modules/flatpickr/dist/l10n/cy.js":
 /*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/cs.js ***!
+  !*** ./node_modules/flatpickr/dist/l10n/cy.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16,31 +16,32 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Czech = {
+    var Welsh = {
       weekdays: {
-        shorthand: ["Ne", "Po", "Út", "St", "Čt", "Pá", "So"],
-        longhand: ["Neděle", "Pondělí", "Úterý", "Středa", "Čtvrtek", "Pátek", "Sobota"]
+        shorthand: ["Sul", "Llun", "Maw", "Mer", "Iau", "Gwe", "Sad"],
+        longhand: ["Dydd Sul", "Dydd Llun", "Dydd Mawrth", "Dydd Mercher", "Dydd Iau", "Dydd Gwener", "Dydd Sadwrn"]
       },
       months: {
-        shorthand: ["Led", "Ún", "Bře", "Dub", "Kvě", "Čer", "Čvc", "Srp", "Zář", "Říj", "Lis", "Pro"],
-        longhand: ["Leden", "Únor", "Březen", "Duben", "Květen", "Červen", "Červenec", "Srpen", "Září", "Říjen", "Listopad", "Prosinec"]
+        shorthand: ["Ion", "Chwef", "Maw", "Ebr", "Mai", "Meh", "Gorff", "Awst", "Medi", "Hyd", "Tach", "Rhag"],
+        longhand: ["Ionawr", "Chwefror", "Mawrth", "Ebrill", "Mai", "Mehefin", "Gorffennaf", "Awst", "Medi", "Hydref", "Tachwedd", "Rhagfyr"]
       },
       firstDayOfWeek: 1,
-      ordinal: function ordinal() {
-        return ".";
-      },
-      rangeSeparator: " do ",
-      weekAbbreviation: "Týd.",
-      scrollTitle: "Rolujte pro změnu",
-      toggleTitle: "Přepnout dopoledne/odpoledne",
-      amPM: ["dop.", "odp."],
-      yearAriaLabel: "Rok"
+      ordinal: function ordinal(nth) {
+        if (nth === 1) return "af";
+        if (nth === 2) return "ail";
+        if (nth === 3 || nth === 4) return "ydd";
+        if (nth === 5 || nth === 6) return "ed";
+        if (nth >= 7 && nth <= 10 || nth == 12 || nth == 15 || nth == 18 || nth == 20) return "fed";
+        if (nth == 11 || nth == 13 || nth == 14 || nth == 16 || nth == 17 || nth == 19) return "eg";
+        if (nth >= 21 && nth <= 39) return "ain";
+        return "";
+      }
     };
-    fp.l10ns.cs = Czech;
-    var cs = fp.l10ns;
+    fp.l10ns.cy = Welsh;
+    var cy = fp.l10ns;
 
-    exports.Czech = Czech;
-    exports.default = cs;
+    exports.Welsh = Welsh;
+    exports.default = cy;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -50,4 +51,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=16.js.map?v=3.23
+//# sourceMappingURL=16.js.map?v=3.23.0

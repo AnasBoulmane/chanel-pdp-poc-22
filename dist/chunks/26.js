@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[26],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/fr.js":
+/***/ "./node_modules/flatpickr/dist/l10n/gr.js":
 /*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/fr.js ***!
+  !*** ./node_modules/flatpickr/dist/l10n/gr.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16,30 +16,30 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var French = {
-      firstDayOfWeek: 1,
+    var Greek = {
       weekdays: {
-        shorthand: ["dim", "lun", "mar", "mer", "jeu", "ven", "sam"],
-        longhand: ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"]
+        shorthand: ["Κυ", "Δε", "Τρ", "Τε", "Πέ", "Πα", "Σά"],
+        longhand: ["Κυριακή", "Δευτέρα", "Τρίτη", "Τετάρτη", "Πέμπτη", "Παρασκευή", "Σάββατο"]
       },
       months: {
-        shorthand: ["janv", "févr", "mars", "avr", "mai", "juin", "juil", "août", "sept", "oct", "nov", "déc"],
-        longhand: ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
+        shorthand: ["Ιαν", "Φεβ", "Μάρ", "Απρ", "Μάι", "Ιού", "Ιού", "Αύγ", "Σεπ", "Οκτ", "Νοέ", "Δεκ"],
+        longhand: ["Ιανουάριος", "Φεβρουάριος", "Μάρτιος", "Απρίλιος", "Μάιος", "Ιούνιος", "Ιούλιος", "Αύγουστος", "Σεπτέμβριος", "Οκτώβριος", "Νοέμβριος", "Δεκέμβριος"]
       },
-      ordinal: function ordinal(nth) {
-        if (nth > 1) return "";
-        return "er";
+      firstDayOfWeek: 1,
+      ordinal: function ordinal() {
+        return "";
       },
-      rangeSeparator: " au ",
-      weekAbbreviation: "Sem",
-      scrollTitle: "Défiler pour augmenter la valeur",
-      toggleTitle: "Cliquer pour basculer"
+      weekAbbreviation: "Εβδ",
+      rangeSeparator: " έως ",
+      scrollTitle: "Μετακυλήστε για προσαύξηση",
+      toggleTitle: "Κάντε κλικ για αλλαγή",
+      amPM: ["ΠΜ", "ΜΜ"]
     };
-    fp.l10ns.fr = French;
-    var fr = fp.l10ns;
+    fp.l10ns.gr = Greek;
+    var gr = fp.l10ns;
 
-    exports.French = French;
-    exports.default = fr;
+    exports.Greek = Greek;
+    exports.default = gr;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -49,4 +49,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=26.js.map?v=3.23
+//# sourceMappingURL=26.js.map?v=3.23.0

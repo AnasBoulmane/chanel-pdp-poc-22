@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[18],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/da.js":
+/***/ "./node_modules/flatpickr/dist/l10n/de.js":
 /*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/da.js ***!
+  !*** ./node_modules/flatpickr/dist/l10n/de.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16,27 +16,26 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Danish = {
+    var German = {
       weekdays: {
-        shorthand: ["søn", "man", "tir", "ons", "tors", "fre", "lør"],
-        longhand: ["søndag", "mandag", "tirsdag", "onsdag", "torsdag", "fredag", "lørdag"]
+        shorthand: ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"],
+        longhand: ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"]
       },
       months: {
-        shorthand: ["jan", "feb", "mar", "apr", "maj", "jun", "jul", "aug", "sep", "okt", "nov", "dec"],
-        longhand: ["januar", "februar", "marts", "april", "maj", "juni", "juli", "august", "september", "oktober", "november", "december"]
-      },
-      ordinal: function ordinal() {
-        return ".";
+        shorthand: ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
+        longhand: ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
       },
       firstDayOfWeek: 1,
-      rangeSeparator: " til ",
-      weekAbbreviation: "uge"
+      weekAbbreviation: "KW",
+      rangeSeparator: " bis ",
+      scrollTitle: "Zum Ändern scrollen",
+      toggleTitle: "Zum Umschalten klicken"
     };
-    fp.l10ns.da = Danish;
-    var da = fp.l10ns;
+    fp.l10ns.de = German;
+    var de = fp.l10ns;
 
-    exports.Danish = Danish;
-    exports.default = da;
+    exports.German = German;
+    exports.default = de;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -46,4 +45,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=18.js.map?v=3.23
+//# sourceMappingURL=18.js.map?v=3.23.0

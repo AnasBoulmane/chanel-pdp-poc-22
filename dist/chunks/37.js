@@ -1,3 +1,3 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[37],{731:function(n,o,d){
+(window.webpackJsonp=window.webpackJsonp||[]).push([[37],{627:function(n,o,d){
 /* flatpickr v4.5.2, @license MIT */
 !function(n){"use strict";var o="undefined"!=typeof window&&void 0!==window.flatpickr?window.flatpickr:{l10ns:{}},d={weekdays:{shorthand:["Нд","Пн","Вт","Ср","Чт","Пт","Сб"],longhand:["Неделя","Понеделник","Вторник","Сряда","Четвъртък","Петък","Събота"]},months:{shorthand:["Яну","Фев","Март","Апр","Май","Юни","Юли","Авг","Сеп","Окт","Ное","Дек"],longhand:["Януари","Февруари","Март","Април","Май","Юни","Юли","Август","Септември","Октомври","Ноември","Декември"]}};o.l10ns.bg=d;var e=o.l10ns;n.Bulgarian=d,n.default=e,Object.defineProperty(n,"__esModule",{value:!0})}(o)}}]);

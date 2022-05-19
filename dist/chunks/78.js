@@ -1,3 +1,3 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[78],{772:function(e,n,o){
+(window.webpackJsonp=window.webpackJsonp||[]).push([[78],{668:function(e,n,o){
 /* flatpickr v4.5.2, @license MIT */
 !function(e){"use strict";var n="undefined"!=typeof window&&void 0!==window.flatpickr?window.flatpickr:{l10ns:{}},o={weekdays:{shorthand:["Ned","Pon","Tor","Sre","Čet","Pet","Sob"],longhand:["Nedelja","Ponedeljek","Torek","Sreda","Četrtek","Petek","Sobota"]},months:{shorthand:["Jan","Feb","Mar","Apr","Maj","Jun","Jul","Avg","Sep","Okt","Nov","Dec"],longhand:["Januar","Februar","Marec","April","Maj","Junij","Julij","Avgust","September","Oktober","November","December"]},firstDayOfWeek:1,rangeSeparator:" do ",ordinal:function(){return"."}};n.l10ns.sl=o;var r=n.l10ns;e.Slovenian=o,e.default=r,Object.defineProperty(e,"__esModule",{value:!0})}(n)}}]);

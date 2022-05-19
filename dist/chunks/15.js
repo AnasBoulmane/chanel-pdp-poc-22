@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[15],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/cat.js":
-/*!*************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/cat.js ***!
-  \*************************************************/
+/***/ "./node_modules/flatpickr/dist/l10n/cs.js":
+/*!************************************************!*\
+  !*** ./node_modules/flatpickr/dist/l10n/cs.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16,43 +16,31 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Catalan = {
+    var Czech = {
       weekdays: {
-        shorthand: ["Dg", "Dl", "Dt", "Dc", "Dj", "Dv", "Ds"],
-        longhand: ["Diumenge", "Dilluns", "Dimarts", "Dimecres", "Dijous", "Divendres", "Dissabte"]
+        shorthand: ["Ne", "Po", "Út", "St", "Čt", "Pá", "So"],
+        longhand: ["Neděle", "Pondělí", "Úterý", "Středa", "Čtvrtek", "Pátek", "Sobota"]
       },
       months: {
-        shorthand: ["Gen", "Febr", "Març", "Abr", "Maig", "Juny", "Jul", "Ag", "Set", "Oct", "Nov", "Des"],
-        longhand: ["Gener", "Febrer", "Març", "Abril", "Maig", "Juny", "Juliol", "Agost", "Setembre", "Octubre", "Novembre", "Desembre"]
+        shorthand: ["Led", "Ún", "Bře", "Dub", "Kvě", "Čer", "Čvc", "Srp", "Zář", "Říj", "Lis", "Pro"],
+        longhand: ["Leden", "Únor", "Březen", "Duben", "Květen", "Červen", "Červenec", "Srpen", "Září", "Říjen", "Listopad", "Prosinec"]
       },
-      ordinal: function ordinal(nth) {
-        var s = nth % 100;
-        if (s > 3 && s < 21) return "è";
-
-        switch (s % 10) {
-          case 1:
-            return "r";
-
-          case 2:
-            return "n";
-
-          case 3:
-            return "r";
-
-          case 4:
-            return "t";
-
-          default:
-            return "è";
-        }
+      firstDayOfWeek: 1,
+      ordinal: function ordinal() {
+        return ".";
       },
-      firstDayOfWeek: 1
+      rangeSeparator: " do ",
+      weekAbbreviation: "Týd.",
+      scrollTitle: "Rolujte pro změnu",
+      toggleTitle: "Přepnout dopoledne/odpoledne",
+      amPM: ["dop.", "odp."],
+      yearAriaLabel: "Rok"
     };
-    fp.l10ns.cat = Catalan;
-    var cat = fp.l10ns;
+    fp.l10ns.cs = Czech;
+    var cs = fp.l10ns;
 
-    exports.Catalan = Catalan;
-    exports.default = cat;
+    exports.Czech = Czech;
+    exports.default = cs;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -62,4 +50,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=15.js.map?v=3.23
+//# sourceMappingURL=15.js.map?v=3.23.0

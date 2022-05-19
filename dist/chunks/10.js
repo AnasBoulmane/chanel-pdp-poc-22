@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[10],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/ar.js":
+/***/ "./node_modules/flatpickr/dist/l10n/at.js":
 /*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/ar.js ***!
+  !*** ./node_modules/flatpickr/dist/l10n/at.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16,21 +16,26 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Arabic = {
+    var Austria = {
       weekdays: {
-        shorthand: ["أحد", "اثنين", "ثلاثاء", "أربعاء", "خميس", "جمعة", "سبت"],
-        longhand: ["الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"]
+        shorthand: ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"],
+        longhand: ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"]
       },
       months: {
-        shorthand: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
-        longhand: ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"]
-      }
+        shorthand: ["Jän", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
+        longhand: ["Jänner", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
+      },
+      firstDayOfWeek: 1,
+      weekAbbreviation: "KW",
+      rangeSeparator: " bis ",
+      scrollTitle: "Zum Ändern scrollen",
+      toggleTitle: "Zum Umschalten klicken"
     };
-    fp.l10ns.ar = Arabic;
-    var ar = fp.l10ns;
+    fp.l10ns.at = Austria;
+    var at = fp.l10ns;
 
-    exports.Arabic = Arabic;
-    exports.default = ar;
+    exports.Austria = Austria;
+    exports.default = at;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -40,4 +45,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=10.js.map?v=3.23
+//# sourceMappingURL=10.js.map?v=3.23.0

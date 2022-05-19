@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[13],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/bg.js":
+/***/ "./node_modules/flatpickr/dist/l10n/bn.js":
 /*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/bg.js ***!
+  !*** ./node_modules/flatpickr/dist/l10n/bn.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16,21 +16,21 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Bulgarian = {
+    var Bangla = {
       weekdays: {
-        shorthand: ["Нд", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
-        longhand: ["Неделя", "Понеделник", "Вторник", "Сряда", "Четвъртък", "Петък", "Събота"]
+        shorthand: ["রবি", "সোম", "মঙ্গল", "বুধ", "বৃহস্পতি", "শুক্র", "শনি"],
+        longhand: ["রবিবার", "সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার"]
       },
       months: {
-        shorthand: ["Яну", "Фев", "Март", "Апр", "Май", "Юни", "Юли", "Авг", "Сеп", "Окт", "Ное", "Дек"],
-        longhand: ["Януари", "Февруари", "Март", "Април", "Май", "Юни", "Юли", "Август", "Септември", "Октомври", "Ноември", "Декември"]
+        shorthand: ["জানু", "ফেব্রু", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগ", "সেপ্টে", "অক্টো", "নভে", "ডিসে"],
+        longhand: ["জানুয়ারী", "ফেব্রুয়ারী", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"]
       }
     };
-    fp.l10ns.bg = Bulgarian;
-    var bg = fp.l10ns;
+    fp.l10ns.bn = Bangla;
+    var bn = fp.l10ns;
 
-    exports.Bulgarian = Bulgarian;
-    exports.default = bg;
+    exports.Bangla = Bangla;
+    exports.default = bn;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -40,4 +40,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=13.js.map?v=3.23
+//# sourceMappingURL=13.js.map?v=3.23.0

@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[19],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/de.js":
-/*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/de.js ***!
-  \************************************************/
+/***/ "./node_modules/flatpickr/dist/l10n/default.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/flatpickr/dist/l10n/default.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13,29 +13,45 @@
     undefined;
 }(this, (function (exports) { 'use strict';
 
-    var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
-      l10ns: {}
-    };
-    var German = {
+    var english = {
       weekdays: {
-        shorthand: ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"],
-        longhand: ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"]
+        shorthand: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+        longhand: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
       },
       months: {
-        shorthand: ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
-        longhand: ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
+        shorthand: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        longhand: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
       },
-      firstDayOfWeek: 1,
-      weekAbbreviation: "KW",
-      rangeSeparator: " bis ",
-      scrollTitle: "Zum Ändern scrollen",
-      toggleTitle: "Zum Umschalten klicken"
-    };
-    fp.l10ns.de = German;
-    var de = fp.l10ns;
+      daysInMonth: [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31],
+      firstDayOfWeek: 0,
+      ordinal: function ordinal(nth) {
+        var s = nth % 100;
+        if (s > 3 && s < 21) return "th";
 
-    exports.German = German;
-    exports.default = de;
+        switch (s % 10) {
+          case 1:
+            return "st";
+
+          case 2:
+            return "nd";
+
+          case 3:
+            return "rd";
+
+          default:
+            return "th";
+        }
+      },
+      rangeSeparator: " to ",
+      weekAbbreviation: "Wk",
+      scrollTitle: "Scroll to increment",
+      toggleTitle: "Click to toggle",
+      amPM: ["AM", "PM"],
+      yearAriaLabel: "Year"
+    };
+
+    exports.english = english;
+    exports.default = english;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -45,4 +61,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=19.js.map?v=3.23
+//# sourceMappingURL=19.js.map?v=3.23.0

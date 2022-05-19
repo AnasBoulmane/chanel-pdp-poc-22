@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[25],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/fi.js":
+/***/ "./node_modules/flatpickr/dist/l10n/fr.js":
 /*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/fi.js ***!
+  !*** ./node_modules/flatpickr/dist/l10n/fr.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16,25 +16,30 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Finnish = {
+    var French = {
       firstDayOfWeek: 1,
       weekdays: {
-        shorthand: ["Su", "Ma", "Ti", "Ke", "To", "Pe", "La"],
-        longhand: ["Sunnuntai", "Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai", "Lauantai"]
+        shorthand: ["dim", "lun", "mar", "mer", "jeu", "ven", "sam"],
+        longhand: ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"]
       },
       months: {
-        shorthand: ["Tammi", "Helmi", "Maalis", "Huhti", "Touko", "Kesä", "Heinä", "Elo", "Syys", "Loka", "Marras", "Joulu"],
-        longhand: ["Tammikuu", "Helmikuu", "Maaliskuu", "Huhtikuu", "Toukokuu", "Kesäkuu", "Heinäkuu", "Elokuu", "Syyskuu", "Lokakuu", "Marraskuu", "Joulukuu"]
+        shorthand: ["janv", "févr", "mars", "avr", "mai", "juin", "juil", "août", "sept", "oct", "nov", "déc"],
+        longhand: ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
       },
-      ordinal: function ordinal() {
-        return ".";
-      }
+      ordinal: function ordinal(nth) {
+        if (nth > 1) return "";
+        return "er";
+      },
+      rangeSeparator: " au ",
+      weekAbbreviation: "Sem",
+      scrollTitle: "Défiler pour augmenter la valeur",
+      toggleTitle: "Cliquer pour basculer"
     };
-    fp.l10ns.fi = Finnish;
-    var fi = fp.l10ns;
+    fp.l10ns.fr = French;
+    var fr = fp.l10ns;
 
-    exports.Finnish = Finnish;
-    exports.default = fi;
+    exports.French = French;
+    exports.default = fr;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -44,4 +49,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=25.js.map?v=3.23
+//# sourceMappingURL=25.js.map?v=3.23.0

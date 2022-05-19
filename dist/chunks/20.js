@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[20],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/default.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/default.js ***!
-  \*****************************************************/
+/***/ "./node_modules/flatpickr/dist/l10n/eo.js":
+/*!************************************************!*\
+  !*** ./node_modules/flatpickr/dist/l10n/eo.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13,45 +13,32 @@
     undefined;
 }(this, (function (exports) { 'use strict';
 
-    var english = {
+    var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
+      l10ns: {}
+    };
+    var Esperanto = {
+      firstDayOfWeek: 1,
+      rangeSeparator: " ĝis ",
+      weekAbbreviation: "Sem",
+      scrollTitle: "Rulumu por pligrandigi la valoron",
+      toggleTitle: "Klaku por ŝalti",
       weekdays: {
-        shorthand: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-        longhand: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+        shorthand: ["Dim", "Lun", "Mar", "Mer", "Ĵaŭ", "Ven", "Sab"],
+        longhand: ["dimanĉo", "lundo", "mardo", "merkredo", "ĵaŭdo", "vendredo", "sabato"]
       },
       months: {
-        shorthand: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-        longhand: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+        shorthand: ["Jan", "Feb", "Mar", "Apr", "Maj", "Jun", "Jul", "Aŭg", "Sep", "Okt", "Nov", "Dec"],
+        longhand: ["januaro", "februaro", "marto", "aprilo", "majo", "junio", "julio", "aŭgusto", "septembro", "oktobro", "novembro", "decembro"]
       },
-      daysInMonth: [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31],
-      firstDayOfWeek: 0,
-      ordinal: function ordinal(nth) {
-        var s = nth % 100;
-        if (s > 3 && s < 21) return "th";
-
-        switch (s % 10) {
-          case 1:
-            return "st";
-
-          case 2:
-            return "nd";
-
-          case 3:
-            return "rd";
-
-          default:
-            return "th";
-        }
-      },
-      rangeSeparator: " to ",
-      weekAbbreviation: "Wk",
-      scrollTitle: "Scroll to increment",
-      toggleTitle: "Click to toggle",
-      amPM: ["AM", "PM"],
-      yearAriaLabel: "Year"
+      ordinal: function ordinal() {
+        return "-a";
+      }
     };
+    fp.l10ns.eo = Esperanto;
+    var eo = fp.l10ns;
 
-    exports.english = english;
-    exports.default = english;
+    exports.Esperanto = Esperanto;
+    exports.default = eo;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -61,4 +48,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=20.js.map?v=3.23
+//# sourceMappingURL=20.js.map?v=3.23.0

@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[24],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/fa.js":
+/***/ "./node_modules/flatpickr/dist/l10n/fi.js":
 /*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/fa.js ***!
+  !*** ./node_modules/flatpickr/dist/l10n/fi.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16,25 +16,25 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Persian = {
+    var Finnish = {
+      firstDayOfWeek: 1,
       weekdays: {
-        shorthand: ["یک", "دو", "سه", "چهار", "پنج", "جمعه", "شنبه"],
-        longhand: ["یک‌شنبه", "دوشنبه", "سه‌شنبه", "چهارشنبه", "پنچ‌شنبه", "جمعه", "شنبه"]
+        shorthand: ["Su", "Ma", "Ti", "Ke", "To", "Pe", "La"],
+        longhand: ["Sunnuntai", "Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai", "Lauantai"]
       },
       months: {
-        shorthand: ["ژانویه", "فوریه", "مارس", "آوریل", "مه", "ژوئن", "ژوئیه", "اوت", "سپتامبر", "اکتبر", "نوامبر", "دسامبر"],
-        longhand: ["ژانویه", "فوریه", "مارس", "آوریل", "مه", "ژوئن", "ژوئیه", "اوت", "سپتامبر", "اکتبر", "نوامبر", "دسامبر"]
+        shorthand: ["Tammi", "Helmi", "Maalis", "Huhti", "Touko", "Kesä", "Heinä", "Elo", "Syys", "Loka", "Marras", "Joulu"],
+        longhand: ["Tammikuu", "Helmikuu", "Maaliskuu", "Huhtikuu", "Toukokuu", "Kesäkuu", "Heinäkuu", "Elokuu", "Syyskuu", "Lokakuu", "Marraskuu", "Joulukuu"]
       },
-      firstDayOfWeek: 6,
       ordinal: function ordinal() {
-        return "";
+        return ".";
       }
     };
-    fp.l10ns.fa = Persian;
-    var fa = fp.l10ns;
+    fp.l10ns.fi = Finnish;
+    var fi = fp.l10ns;
 
-    exports.Persian = Persian;
-    exports.default = fa;
+    exports.Finnish = Finnish;
+    exports.default = fi;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -44,4 +44,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=24.js.map?v=3.23
+//# sourceMappingURL=24.js.map?v=3.23.0

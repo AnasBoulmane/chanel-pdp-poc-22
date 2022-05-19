@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[23],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/et.js":
+/***/ "./node_modules/flatpickr/dist/l10n/fa.js":
 /*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/et.js ***!
+  !*** ./node_modules/flatpickr/dist/l10n/fa.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16,29 +16,25 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Estonian = {
+    var Persian = {
       weekdays: {
-        shorthand: ["P", "E", "T", "K", "N", "R", "L"],
-        longhand: ["Pühapäev", "Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede", "Laupäev"]
+        shorthand: ["یک", "دو", "سه", "چهار", "پنج", "جمعه", "شنبه"],
+        longhand: ["یک‌شنبه", "دوشنبه", "سه‌شنبه", "چهارشنبه", "پنچ‌شنبه", "جمعه", "شنبه"]
       },
       months: {
-        shorthand: ["Jaan", "Veebr", "Märts", "Apr", "Mai", "Juuni", "Juuli", "Aug", "Sept", "Okt", "Nov", "Dets"],
-        longhand: ["Jaanuar", "Veebruar", "Märts", "Aprill", "Mai", "Juuni", "Juuli", "August", "September", "Oktoober", "November", "Detsember"]
+        shorthand: ["ژانویه", "فوریه", "مارس", "آوریل", "مه", "ژوئن", "ژوئیه", "اوت", "سپتامبر", "اکتبر", "نوامبر", "دسامبر"],
+        longhand: ["ژانویه", "فوریه", "مارس", "آوریل", "مه", "ژوئن", "ژوئیه", "اوت", "سپتامبر", "اکتبر", "نوامبر", "دسامبر"]
       },
-      firstDayOfWeek: 1,
+      firstDayOfWeek: 6,
       ordinal: function ordinal() {
-        return ".";
-      },
-      weekAbbreviation: "Näd",
-      rangeSeparator: " kuni ",
-      scrollTitle: "Keri, et suurendada",
-      toggleTitle: "Klõpsa, et vahetada"
+        return "";
+      }
     };
-    fp.l10ns.et = Estonian;
-    var et = fp.l10ns;
+    fp.l10ns.fa = Persian;
+    var fa = fp.l10ns;
 
-    exports.Estonian = Estonian;
-    exports.default = et;
+    exports.Persian = Persian;
+    exports.default = fa;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -48,4 +44,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=23.js.map?v=3.23
+//# sourceMappingURL=23.js.map?v=3.23.0

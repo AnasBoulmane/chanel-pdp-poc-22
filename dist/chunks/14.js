@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[14],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/bn.js":
-/*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/bn.js ***!
-  \************************************************/
+/***/ "./node_modules/flatpickr/dist/l10n/cat.js":
+/*!*************************************************!*\
+  !*** ./node_modules/flatpickr/dist/l10n/cat.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16,21 +16,43 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Bangla = {
+    var Catalan = {
       weekdays: {
-        shorthand: ["রবি", "সোম", "মঙ্গল", "বুধ", "বৃহস্পতি", "শুক্র", "শনি"],
-        longhand: ["রবিবার", "সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার"]
+        shorthand: ["Dg", "Dl", "Dt", "Dc", "Dj", "Dv", "Ds"],
+        longhand: ["Diumenge", "Dilluns", "Dimarts", "Dimecres", "Dijous", "Divendres", "Dissabte"]
       },
       months: {
-        shorthand: ["জানু", "ফেব্রু", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগ", "সেপ্টে", "অক্টো", "নভে", "ডিসে"],
-        longhand: ["জানুয়ারী", "ফেব্রুয়ারী", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"]
-      }
-    };
-    fp.l10ns.bn = Bangla;
-    var bn = fp.l10ns;
+        shorthand: ["Gen", "Febr", "Març", "Abr", "Maig", "Juny", "Jul", "Ag", "Set", "Oct", "Nov", "Des"],
+        longhand: ["Gener", "Febrer", "Març", "Abril", "Maig", "Juny", "Juliol", "Agost", "Setembre", "Octubre", "Novembre", "Desembre"]
+      },
+      ordinal: function ordinal(nth) {
+        var s = nth % 100;
+        if (s > 3 && s < 21) return "è";
 
-    exports.Bangla = Bangla;
-    exports.default = bn;
+        switch (s % 10) {
+          case 1:
+            return "r";
+
+          case 2:
+            return "n";
+
+          case 3:
+            return "r";
+
+          case 4:
+            return "t";
+
+          default:
+            return "è";
+        }
+      },
+      firstDayOfWeek: 1
+    };
+    fp.l10ns.cat = Catalan;
+    var cat = fp.l10ns;
+
+    exports.Catalan = Catalan;
+    exports.default = cat;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -40,4 +62,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=14.js.map?v=3.23
+//# sourceMappingURL=14.js.map?v=3.23.0

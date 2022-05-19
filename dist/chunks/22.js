@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[22],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/es.js":
+/***/ "./node_modules/flatpickr/dist/l10n/et.js":
 /*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/es.js ***!
+  !*** ./node_modules/flatpickr/dist/l10n/et.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16,26 +16,29 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Spanish = {
+    var Estonian = {
       weekdays: {
-        shorthand: ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"],
-        longhand: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
+        shorthand: ["P", "E", "T", "K", "N", "R", "L"],
+        longhand: ["Pühapäev", "Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede", "Laupäev"]
       },
       months: {
-        shorthand: ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
-        longhand: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
-      },
-      ordinal: function ordinal() {
-        return "º";
+        shorthand: ["Jaan", "Veebr", "Märts", "Apr", "Mai", "Juuni", "Juuli", "Aug", "Sept", "Okt", "Nov", "Dets"],
+        longhand: ["Jaanuar", "Veebruar", "Märts", "Aprill", "Mai", "Juuni", "Juuli", "August", "September", "Oktoober", "November", "Detsember"]
       },
       firstDayOfWeek: 1,
-      rangeSeparator: " a "
+      ordinal: function ordinal() {
+        return ".";
+      },
+      weekAbbreviation: "Näd",
+      rangeSeparator: " kuni ",
+      scrollTitle: "Keri, et suurendada",
+      toggleTitle: "Klõpsa, et vahetada"
     };
-    fp.l10ns.es = Spanish;
-    var es = fp.l10ns;
+    fp.l10ns.et = Estonian;
+    var et = fp.l10ns;
 
-    exports.Spanish = Spanish;
-    exports.default = es;
+    exports.Estonian = Estonian;
+    exports.default = et;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -45,4 +48,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=22.js.map?v=3.23
+//# sourceMappingURL=22.js.map?v=3.23.0

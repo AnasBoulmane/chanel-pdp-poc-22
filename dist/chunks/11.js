@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[11],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/at.js":
+/***/ "./node_modules/flatpickr/dist/l10n/be.js":
 /*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/at.js ***!
+  !*** ./node_modules/flatpickr/dist/l10n/be.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16,26 +16,31 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Austria = {
+    var Belarusian = {
       weekdays: {
-        shorthand: ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"],
-        longhand: ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"]
+        shorthand: ["Нд", "Пн", "Аў", "Ср", "Чц", "Пт", "Сб"],
+        longhand: ["Нядзеля", "Панядзелак", "Аўторак", "Серада", "Чацвер", "Пятніца", "Субота"]
       },
       months: {
-        shorthand: ["Jän", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
-        longhand: ["Jänner", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
+        shorthand: ["Сту", "Лют", "Сак", "Кра", "Тра", "Чэр", "Ліп", "Жні", "Вер", "Кас", "Ліс", "Сне"],
+        longhand: ["Студзень", "Люты", "Сакавік", "Красавік", "Травень", "Чэрвень", "Ліпень", "Жнівень", "Верасень", "Кастрычнік", "Лістапад", "Снежань"]
       },
       firstDayOfWeek: 1,
-      weekAbbreviation: "KW",
-      rangeSeparator: " bis ",
-      scrollTitle: "Zum Ändern scrollen",
-      toggleTitle: "Zum Umschalten klicken"
+      ordinal: function ordinal() {
+        return "";
+      },
+      rangeSeparator: " — ",
+      weekAbbreviation: "Тыд.",
+      scrollTitle: "Пракруціце для павелічэння",
+      toggleTitle: "Націсніце для пераключэння",
+      amPM: ["ДП", "ПП"],
+      yearAriaLabel: "Год"
     };
-    fp.l10ns.at = Austria;
-    var at = fp.l10ns;
+    fp.l10ns.be = Belarusian;
+    var be = fp.l10ns;
 
-    exports.Austria = Austria;
-    exports.default = at;
+    exports.Belarusian = Belarusian;
+    exports.default = be;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -45,4 +50,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=11.js.map?v=3.23
+//# sourceMappingURL=11.js.map?v=3.23.0

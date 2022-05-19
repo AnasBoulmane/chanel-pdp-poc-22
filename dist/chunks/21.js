@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[21],{
 
-/***/ "./node_modules/flatpickr/dist/l10n/eo.js":
+/***/ "./node_modules/flatpickr/dist/l10n/es.js":
 /*!************************************************!*\
-  !*** ./node_modules/flatpickr/dist/l10n/eo.js ***!
+  !*** ./node_modules/flatpickr/dist/l10n/es.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16,29 +16,26 @@
     var fp = typeof window !== "undefined" && window.flatpickr !== undefined ? window.flatpickr : {
       l10ns: {}
     };
-    var Esperanto = {
-      firstDayOfWeek: 1,
-      rangeSeparator: " ĝis ",
-      weekAbbreviation: "Sem",
-      scrollTitle: "Rulumu por pligrandigi la valoron",
-      toggleTitle: "Klaku por ŝalti",
+    var Spanish = {
       weekdays: {
-        shorthand: ["Dim", "Lun", "Mar", "Mer", "Ĵaŭ", "Ven", "Sab"],
-        longhand: ["dimanĉo", "lundo", "mardo", "merkredo", "ĵaŭdo", "vendredo", "sabato"]
+        shorthand: ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"],
+        longhand: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
       },
       months: {
-        shorthand: ["Jan", "Feb", "Mar", "Apr", "Maj", "Jun", "Jul", "Aŭg", "Sep", "Okt", "Nov", "Dec"],
-        longhand: ["januaro", "februaro", "marto", "aprilo", "majo", "junio", "julio", "aŭgusto", "septembro", "oktobro", "novembro", "decembro"]
+        shorthand: ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
+        longhand: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
       },
       ordinal: function ordinal() {
-        return "-a";
-      }
+        return "º";
+      },
+      firstDayOfWeek: 1,
+      rangeSeparator: " a "
     };
-    fp.l10ns.eo = Esperanto;
-    var eo = fp.l10ns;
+    fp.l10ns.es = Spanish;
+    var es = fp.l10ns;
 
-    exports.Esperanto = Esperanto;
-    exports.default = eo;
+    exports.Spanish = Spanish;
+    exports.default = es;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
@@ -48,4 +45,4 @@
 /***/ })
 
 }]);
-//# sourceMappingURL=21.js.map?v=3.23
+//# sourceMappingURL=21.js.map?v=3.23.0
